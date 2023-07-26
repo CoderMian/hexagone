@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --hx-Global--color-green: #00f3a7;
+  --hx-Global--color-background: #000;
+  --hx-Global--color-text: #fff;
+  --hx-Global--color-text-accent: #707070;
+}
+@keyframes AnimatedTitle_hx-Global--purple-glitch__5E6k5 {
+  0% {
+    text-shadow: 15px 0 1px #ff00e2;
+  }
+  50% {
+    text-shadow: none;
+  }
+}
+
+@font-face {
+  font-family: "conthraxsemibold";
+  src: url("../public/assets/fonts/conthrax-sb-webfont.woff2") format("woff2"),
+    url("../public//assets/fonts/conthrax-sb-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "conthraxsemibold";
+}
+body {
+  box-sizing: border-box;
+  background: var(--hx-Global--color-background);
+  color: var(--hx-Global--color-text);
+
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+p {
+  font-family: "Jura", sans-serif;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}

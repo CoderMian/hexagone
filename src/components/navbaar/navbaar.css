@@ -1,0 +1,82 @@
+header .navbar {
+  background: transparent;
+  padding: 20px 0px;
+}
+header .navbar .navbar-brand {
+  width: 120px;
+}
+header .navbar .navbar-brand img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+header .navbar ul li {
+  margin-right: 40px;
+  margin-bottom: 0;
+}
+header .navbar ul li a {
+  display: inline-block;
+  position: relative;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  color: var(--hx-Global--color-text);
+  padding: 0.5rem 0rem;
+  text-decoration: none;
+  font-family: "conthraxsemibold";
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+header .navbar ul li a:active {
+  display: inline-block;
+  position: relative;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  color: var(--hx-Global--color-text);
+  padding: 0.5rem 0rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+header .navbar ul li a:after {
+  content: "";
+  position: absolute;
+  bottom: 0.3125em;
+  left: 0;
+  width: 100%;
+  height: 0.125em;
+  transform: scaleX(0);
+  transform-origin: left;
+  background-color: var(--hx-Global--color-green);
+  transition: transform 0.5s;
+}
+header .navbar ul li a:hover:after {
+  transform: scaleX(1);
+}
+.nav-link:focus,
+header .navbar ul li a:hover {
+  color: var(--hx-Global--color-green);
+}
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+  flex-basis: unset;
+  flex-grow: unset;
+}
+header .getaRequestBtn a {
+  background: var(--hx-Global--color-green);
+  color: var(--hx-Global--color-background);
+  border-radius: 0;
+  border: 0;
+  padding: 0.75rem;
+  transition: box-shadow 0.2s;
+  height: 46px;
+  line-height: 46px;
+  position: relative;
+  z-index: 3;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: none;
+  font-family: "conthraxsemibold";
+}
+header .getaRequestBtn a:hover {
+  box-shadow: 0 0 25px 2px rgba(0, 243, 167, 0.75);
+}

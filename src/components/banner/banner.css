@@ -1,0 +1,89 @@
+section.banner {
+  padding: 0 110px;
+}
+.banner_contentBlock {
+  max-width: 50%;
+}
+.banner_contentBlock h1 {
+  animation-duration: 1s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+  animation-name: AnimatedTitle_hx-Global--purple-glitch__5E6k5;
+  max-width: 100%;
+  margin-left: -3.5rem;
+  font-size: 2em;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  line-height: 1.375em;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  margin-left: -3.5rem;
+}
+
+.banner .getaRequestBtn {
+  margin-bottom: 60px;
+}
+.banner .getaRequestBtn a {
+  display: inline-block;
+  background: var(--hx-Global--color-green);
+  color: var(--hx-Global--color-background);
+  border-radius: 0;
+  border: 0;
+  padding: 14px 48px;
+  transition: box-shadow 0.2s;
+  font: 600 0.875em/1.4em var(--hx-Global--font-conthrax);
+  text-transform: uppercase;
+  line-height: 46px;
+  position: relative;
+  z-index: 3;
+  font-family: "conthraxsemibold";
+}
+.banner .getaRequestBtn a:hover {
+  box-shadow: 0 0 25px 2px rgba(0, 243, 167, 0.75);
+}
+.banner_contentBlock p {
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+  line-height: 1.5rem;
+}
+.banner_contentBlock p span {
+  font-weight: 600;
+  font-family: "conthraxsemibold";
+  text-transform: uppercase;
+}
+.banner .brandsSlider {
+  padding-bottom: 6rem;
+}
+.banner .brandsSlider h5 {
+  color: #ffffff;
+  font-family: "conthraxsemibold";
+  font-weight: 600;
+  font-size: 0.9em;
+}
+.banner .brandsSlliderContent {
+  overflow: hidden;
+  position: relative;
+  padding: 1.25rem 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 243, 167, 0.2) 50%,
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 15%,
+    #000 85%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 15%,
+    #000 85%,
+    transparent
+  );
+}

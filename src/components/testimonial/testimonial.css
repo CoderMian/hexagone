@@ -1,0 +1,79 @@
+.testiomnialsSLider {
+  padding: 0 14%;
+  position: relative;
+}
+.testiomnialsSLider::before {
+  content: "";
+  width: 2.6em;
+  height: 1.6em;
+  background: url(https://hexens.io/_next/static/media/testimonial.75415090.svg)
+    50% no-repeat;
+  background-size: contain;
+  position: absolute;
+  filter: drop-shadow(0 0 10px var(--hx-Global--color-text));
+  top: 0;
+  left: 0;
+}
+.testiomnialsSLider::after {
+  content: "";
+  width: 2.6em;
+  height: 1.6em;
+  background: url(https://hexens.io/_next/static/media/testimonial.75415090.svg)
+    50% no-repeat;
+  background-size: contain;
+  position: absolute;
+  filter: drop-shadow(0 0 10px var(--hx-Global--color-text));
+  transform: rotate(180deg);
+  right: 0;
+  bottom: 20%;
+}
+.testimonialsContent p {
+  font-size: 20px;
+  line-height: 1.35rem;
+}
+.Testimonials_author__fZU1h {
+  font-family: "conthraxsemibold";
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 2.5em;
+  vertical-align: middle;
+}
+
+.Testimonials_author__fZU1h a {
+  --hx-Testimonials--twitter-icon-size: 1em;
+  display: inline-block;
+  width: var(--hx-Testimonials--twitter-icon-size);
+  height: var(--hx-Testimonials--twitter-icon-size);
+  background: url(https://hexens.io/_next/static/media/twitter.6e7c6897.svg)
+    no-repeat 50%;
+  background-size: contain;
+  margin: -0.1em 0 0 0.5em;
+  vertical-align: middle;
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+.testimonialsSubAuthor span {
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.3rem;
+  margin-top: 0.5rem;
+}
+.testimonialsSectionBlock {
+  position: relative;
+}
+.swiper-pagination-bullet {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #fff;
+  background: red;
+  color: red;
+  border-radius: 0;
+  opacity: 1;
+}
+.swiper-pagination-bullet .swiper-pagination-bullet-active {
+  background: #fff;
+}
+.swiper-pagination {
+  bottom: -75px !important;
+}

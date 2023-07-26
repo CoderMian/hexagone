@@ -1,0 +1,103 @@
+.service-card {
+  stroke: var(--hx-CutCornersBlock--stroke-color);
+  width: 100%;
+  position: relative;
+}
+.services .servicesSectionBlock__mainHeading {
+  margin: 0 0 1em -3.5rem;
+  position: relative;
+  color: transparent;
+  -webkit-text-stroke-width: min(0.04em, 2px);
+  -webkit-text-stroke-color: #a2a2a2;
+  font-weight: 600;
+  font-size: 56px;
+}
+.CutCornersBlock_svg__xew8s {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  pointer-events: none;
+  height: 100%;
+}
+.service-card polyline {
+  transition: stroke 0.3s;
+}
+.CutCornersBlock_polyline__H44RY {
+  stroke: var(--hx-CutCornersBlock--stroke-color);
+}
+.service-card:hover .CutCornersBlock_polyline__H44RY {
+  stroke: var(--hx-Global--color-green);
+}
+.service-card:hover .services-details a .service-title {
+  border-color: var(--hx-Global--color-green);
+}
+.services-details {
+  min-height: 100%;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  clip-path: polygon(0px 0px, 358px 0px, 394px 36px, 394px 599px, 0px 599px);
+}
+.services-details a {
+  color: var(--hx-Global--color-text);
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  padding: 24px 32px;
+}
+.services-details a .service-title {
+  font-weight: 600;
+  font-size: 1em;
+  margin: 0;
+
+  text-transform: uppercase;
+  padding: 10px;
+  border-bottom: 1px solid var(--hx-CutCornersBlock--stroke-color);
+  transition: all 0.3s ease;
+}
+.service-description {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.service-description .CoreServices_servicesTypes__7Scjd {
+  margin: 0;
+  padding: 22.4px 0px 22.4px 32px;
+}
+.service-description .CoreServices_servicesTypesItem__yn1zg {
+  margin: 0 0 12px;
+}
+.service-description .service-detail-bottom {
+  width: var(--hx-CoreServices--icon-size);
+  min-width: var(--hx-CoreServices--icon-size);
+}
+
+.service-detail-bottom-text-div {
+  position: relative;
+  padding: 0 0 6px;
+  margin: 0 0 6px;
+}
+.service-detail-bottom-text-div span {
+  position: absolute;
+  cursor: pointer;
+  left: 2.1rem;
+}
+.service-detail-bottom-text-div span::after {
+  content: "";
+  position: absolute;
+  bottom: 0.3125em;
+  left: 0;
+  width: 100%;
+  height: 0.125em;
+  transform: scaleX(0);
+  transform-origin: left;
+  background-color: var(--hx-Global--color-green);
+  transition: transform 0.5s;
+}
+.service-detail-bottom-text-div span:hover::after {
+  transform: scaleX(1);
+}
+.service-detail-bottom-text-div span:hover {
+  color: var(--hx-Global--color-green);
+}
